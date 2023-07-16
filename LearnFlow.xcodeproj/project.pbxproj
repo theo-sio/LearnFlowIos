@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4542EAE2A03991A006B6E5A /* AccueilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4542EAC2A03991A006B6E5A /* AccueilViewController.swift */; };
+		E4542EAF2A03991A006B6E5A /* AccueilViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4542EAD2A03991A006B6E5A /* AccueilViewController.xib */; };
+		E45AF5DE2A27943900BAEAA6 /* ValidationTeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45AF5DC2A27943900BAEAA6 /* ValidationTeacherViewController.swift */; };
+		E45AF5DF2A27943900BAEAA6 /* ValidationTeacherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E45AF5DD2A27943900BAEAA6 /* ValidationTeacherViewController.xib */; };
+		E45AF5E22A27952D00BAEAA6 /* RapportGestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45AF5E02A27952D00BAEAA6 /* RapportGestionViewController.swift */; };
+		E45AF5E32A27952D00BAEAA6 /* RapportGestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E45AF5E12A27952D00BAEAA6 /* RapportGestionViewController.xib */; };
+		E45AF5E62A27955A00BAEAA6 /* RapportStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45AF5E42A27955A00BAEAA6 /* RapportStudentViewController.swift */; };
+		E45AF5E72A27955A00BAEAA6 /* RapportStudentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E45AF5E52A27955A00BAEAA6 /* RapportStudentViewController.xib */; };
+		E463A1962A2209270025B8CE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A1942A2209270025B8CE /* ChatViewController.swift */; };
+		E463A1972A2209270025B8CE /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E463A1952A2209270025B8CE /* ChatViewController.xib */; };
+		E463A19A2A220B760025B8CE /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A1992A220B760025B8CE /* Authentication.swift */; };
+		E480DA262A6490BA001E7E2E /* RapportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480DA242A6490B9001E7E2E /* RapportTableViewCell.swift */; };
+		E480DA272A6490BA001E7E2E /* RapportTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E480DA252A6490BA001E7E2E /* RapportTableViewCell.xib */; };
 		E49ABB8529DD919D00919978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49ABB8429DD919D00919978 /* AppDelegate.swift */; };
 		E49ABB8E29DD919E00919978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49ABB8D29DD919E00919978 /* Assets.xcassets */; };
 		E49ABB9129DD919E00919978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49ABB8F29DD919E00919978 /* LaunchScreen.storyboard */; };
@@ -15,6 +28,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4542EAC2A03991A006B6E5A /* AccueilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccueilViewController.swift; sourceTree = "<group>"; };
+		E4542EAD2A03991A006B6E5A /* AccueilViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccueilViewController.xib; sourceTree = "<group>"; };
+		E45AF5DC2A27943900BAEAA6 /* ValidationTeacherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationTeacherViewController.swift; sourceTree = "<group>"; };
+		E45AF5DD2A27943900BAEAA6 /* ValidationTeacherViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ValidationTeacherViewController.xib; sourceTree = "<group>"; };
+		E45AF5E02A27952D00BAEAA6 /* RapportGestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapportGestionViewController.swift; sourceTree = "<group>"; };
+		E45AF5E12A27952D00BAEAA6 /* RapportGestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RapportGestionViewController.xib; sourceTree = "<group>"; };
+		E45AF5E42A27955A00BAEAA6 /* RapportStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapportStudentViewController.swift; sourceTree = "<group>"; };
+		E45AF5E52A27955A00BAEAA6 /* RapportStudentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RapportStudentViewController.xib; sourceTree = "<group>"; };
+		E463A1942A2209270025B8CE /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E463A1952A2209270025B8CE /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		E463A1992A220B760025B8CE /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		E480DA242A6490B9001E7E2E /* RapportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapportTableViewCell.swift; sourceTree = "<group>"; };
+		E480DA252A6490BA001E7E2E /* RapportTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RapportTableViewCell.xib; sourceTree = "<group>"; };
 		E49ABB8129DD919D00919978 /* LearnFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49ABB8429DD919D00919978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E49ABB8D29DD919E00919978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E463A1982A220B2A0025B8CE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E463A1992A220B760025B8CE /* Authentication.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		E49ABB7829DD919D00919978 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +88,25 @@
 		E49ABB8329DD919D00919978 /* LearnFlow */ = {
 			isa = PBXGroup;
 			children = (
+				E463A1982A220B2A0025B8CE /* Services */,
 				E49ABB8429DD919D00919978 /* AppDelegate.swift */,
 				E49ABB9829DD96CA00919978 /* HomeViewController.swift */,
 				E49ABB9929DD96CA00919978 /* HomeViewController.xib */,
 				E49ABB8D29DD919E00919978 /* Assets.xcassets */,
 				E49ABB8F29DD919E00919978 /* LaunchScreen.storyboard */,
 				E49ABB9229DD919E00919978 /* Info.plist */,
+				E4542EAC2A03991A006B6E5A /* AccueilViewController.swift */,
+				E4542EAD2A03991A006B6E5A /* AccueilViewController.xib */,
+				E463A1942A2209270025B8CE /* ChatViewController.swift */,
+				E463A1952A2209270025B8CE /* ChatViewController.xib */,
+				E45AF5DC2A27943900BAEAA6 /* ValidationTeacherViewController.swift */,
+				E45AF5DD2A27943900BAEAA6 /* ValidationTeacherViewController.xib */,
+				E45AF5E02A27952D00BAEAA6 /* RapportGestionViewController.swift */,
+				E45AF5E12A27952D00BAEAA6 /* RapportGestionViewController.xib */,
+				E45AF5E42A27955A00BAEAA6 /* RapportStudentViewController.swift */,
+				E45AF5E52A27955A00BAEAA6 /* RapportStudentViewController.xib */,
+				E480DA242A6490B9001E7E2E /* RapportTableViewCell.swift */,
+				E480DA252A6490BA001E7E2E /* RapportTableViewCell.xib */,
 			);
 			path = LearnFlow;
 			sourceTree = "<group>";
@@ -123,8 +170,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49ABB9129DD919E00919978 /* LaunchScreen.storyboard in Resources */,
+				E480DA272A6490BA001E7E2E /* RapportTableViewCell.xib in Resources */,
+				E45AF5E32A27952D00BAEAA6 /* RapportGestionViewController.xib in Resources */,
 				E49ABB8E29DD919E00919978 /* Assets.xcassets in Resources */,
+				E45AF5DF2A27943900BAEAA6 /* ValidationTeacherViewController.xib in Resources */,
 				E49ABB9B29DD96CA00919978 /* HomeViewController.xib in Resources */,
+				E463A1972A2209270025B8CE /* ChatViewController.xib in Resources */,
+				E45AF5E72A27955A00BAEAA6 /* RapportStudentViewController.xib in Resources */,
+				E4542EAF2A03991A006B6E5A /* AccueilViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +190,13 @@
 			files = (
 				E49ABB8529DD919D00919978 /* AppDelegate.swift in Sources */,
 				E49ABB9A29DD96CA00919978 /* HomeViewController.swift in Sources */,
+				E45AF5DE2A27943900BAEAA6 /* ValidationTeacherViewController.swift in Sources */,
+				E45AF5E22A27952D00BAEAA6 /* RapportGestionViewController.swift in Sources */,
+				E463A1962A2209270025B8CE /* ChatViewController.swift in Sources */,
+				E463A19A2A220B760025B8CE /* Authentication.swift in Sources */,
+				E4542EAE2A03991A006B6E5A /* AccueilViewController.swift in Sources */,
+				E480DA262A6490BA001E7E2E /* RapportTableViewCell.swift in Sources */,
+				E45AF5E62A27955A00BAEAA6 /* RapportStudentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +339,8 @@
 				INFOPLIST_FILE = LearnFlow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,9 +366,8 @@
 				INFOPLIST_FILE = LearnFlow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

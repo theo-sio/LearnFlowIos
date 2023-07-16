@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad10_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RapportStudentViewController" customModule="LearnFlow" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1180" height="820"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E7E-sX-Gf5">
+                    <rect key="frame" x="190" y="74" width="800" height="128"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rapport numero 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcZ-GC-fZg">
+                            <rect key="frame" x="10" y="40" width="176" height="28"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="0OA-UF-jIo"/>
+                        <constraint firstItem="bcZ-GC-fZg" firstAttribute="top" secondItem="E7E-sX-Gf5" secondAttribute="top" constant="40" id="EQJ-ZO-VRE"/>
+                        <constraint firstAttribute="width" constant="800" id="KkT-Dz-0eU"/>
+                        <constraint firstItem="bcZ-GC-fZg" firstAttribute="leading" secondItem="E7E-sX-Gf5" secondAttribute="leading" constant="10" id="i4L-Qy-osS"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EfB-NH-HTB">
+                    <rect key="frame" x="190" y="232" width="800" height="128"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rapport numero 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6D-BU-WTP">
+                            <rect key="frame" x="10" y="40" width="179" height="28"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="800" id="4ay-ZA-Zj3"/>
+                        <constraint firstAttribute="height" constant="128" id="Qv4-jz-Qsm"/>
+                        <constraint firstItem="j6D-BU-WTP" firstAttribute="top" secondItem="EfB-NH-HTB" secondAttribute="top" constant="40" id="fQo-VD-ybb"/>
+                        <constraint firstItem="j6D-BU-WTP" firstAttribute="leading" secondItem="EfB-NH-HTB" secondAttribute="leading" constant="10" id="mDl-91-kXx"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pwx-Og-yQv">
+                    <rect key="frame" x="190" y="390" width="800" height="128"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rapport numero 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msu-gZ-X5m">
+                            <rect key="frame" x="10" y="40" width="180" height="28"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="JDE-bT-hNZ"/>
+                        <constraint firstAttribute="width" constant="800" id="KrC-pK-hgg"/>
+                        <constraint firstItem="Msu-gZ-X5m" firstAttribute="top" secondItem="Pwx-Og-yQv" secondAttribute="top" constant="40" id="U6u-ot-22T"/>
+                        <constraint firstItem="Msu-gZ-X5m" firstAttribute="leading" secondItem="Pwx-Og-yQv" secondAttribute="leading" constant="10" id="ywi-ud-us2"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tNd-zj-csX">
+                    <rect key="frame" x="190" y="548" width="800" height="128"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rapport numero 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTS-16-gPP">
+                            <rect key="frame" x="10" y="40" width="180" height="28"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="Iy0-aq-i7M"/>
+                        <constraint firstAttribute="width" constant="800" id="KT4-uY-wsX"/>
+                        <constraint firstItem="eTS-16-gPP" firstAttribute="top" secondItem="tNd-zj-csX" secondAttribute="top" constant="40" id="dbI-sh-fSV"/>
+                        <constraint firstItem="eTS-16-gPP" firstAttribute="leading" secondItem="tNd-zj-csX" secondAttribute="leading" constant="10" id="syD-KW-949"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="tNd-zj-csX" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="6Eh-Wf-qna"/>
+                <constraint firstItem="Pwx-Og-yQv" firstAttribute="top" secondItem="EfB-NH-HTB" secondAttribute="bottom" constant="30" id="AmQ-r2-Oh1"/>
+                <constraint firstItem="E7E-sX-Gf5" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="C4L-Hu-loj"/>
+                <constraint firstItem="Pwx-Og-yQv" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="GWQ-bY-k4b"/>
+                <constraint firstItem="E7E-sX-Gf5" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="Okg-DT-u1t"/>
+                <constraint firstItem="EfB-NH-HTB" firstAttribute="top" secondItem="E7E-sX-Gf5" secondAttribute="bottom" constant="30" id="UNX-fO-cCu"/>
+                <constraint firstItem="tNd-zj-csX" firstAttribute="top" secondItem="Pwx-Og-yQv" secondAttribute="bottom" constant="30" id="m79-LH-cbf"/>
+                <constraint firstItem="EfB-NH-HTB" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="yzv-0x-buk"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
